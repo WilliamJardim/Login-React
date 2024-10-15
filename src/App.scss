@@ -1,0 +1,42 @@
+
+.corpo-app{
+    display: flex;
+    justify-content: center;
+}
+
+.pagina{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    text-align: center;
+
+    button{
+        width: 800px;
+        height: 90px;
+        border: solid 1px black;
+        border-radius: 16px;
+        display: flex;
+        flex-direction: row;
+        padding: 25px;
+        row-gap: 10px;
+        column-gap: 10px;
+        justify-content: center;
+    
+        .icone{
+            width: 40px;
+            height: 40px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .texto{
+            margin-top: 9.0px;
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            width: 200px;
+            height: 40px;
+        }
+    }
+}
